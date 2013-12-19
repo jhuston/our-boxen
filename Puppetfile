@@ -21,6 +21,12 @@ def github(name, *args)
   end
 end
 
+#Shortcut for my modules
+def jhuston(name, version)
+  mod name, version, :github_tarball => "jhuston/puppet-#{name}"
+end
+
+
 # Shortcut for a module under development
 def dev(name, *args)
   mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
@@ -51,6 +57,14 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "osx",	     "2.2.1"
-github "sublime_text_2", "2.0.2"
-github "chrome"      "1.1.2"
+
+github "osx",        "1.2.0"
+github "zsh",        "1.0.0"
+github "tmux",       "1.0.2"
+github "wget",       "1.0.0"
+
+#apps
+github "chrome",     "1.1.2"
+github "firefox",    "1.0.6"
+github "sublime_text_2", "1.1.2"
+github "iterm2",     "1.0.6"
