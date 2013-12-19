@@ -52,3 +52,5 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "osx",	     "2.2.1"
+github "sublime_text_2", "2.0.2"
+github "chrome"      "1.1.2"

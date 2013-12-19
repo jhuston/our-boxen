@@ -5,7 +5,7 @@
 # ENV['BOXEN_HOME'] = '/opt/boxen'
 
 # Change the repo boxen will use.
-ENV['BOXEN_REPO_NAME'] = 'jhuston/codedoval-boxen'
+ENV['BOXEN_REPO_NAME'] = 'jhuston/our-boxen'
 
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''
