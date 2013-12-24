@@ -62,6 +62,7 @@ github "osx",        "1.2.0"
 github "zsh",        "1.0.0"
 github "tmux",       "1.0.2"
 github "wget",       "1.0.0"
+github "ohmyzsh",    "0.0.1", :repo => "haelmy/puppet-ohmyzsh"
 
 #apps
 github "chrome",     "1.1.2"

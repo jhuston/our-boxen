@@ -5,6 +5,7 @@ class people::jhuston {
     include zsh
     include tmux
     include wget
+    include ohmyzsh
 
     #applications from ./jhuston/applications
 

@@ -4,7 +4,7 @@ class people::jhuston::dotfiles {
 	$dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
 
 	repository {$dotfiles_dir:
-		source => "${::github_login}/dotfiles"
+		source => "jhuston/dotfiles"
 	}
 
   file { "${home}/.zshrc":
