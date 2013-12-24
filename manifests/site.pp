@@ -15,7 +15,8 @@ Exec {
     '/usr/bin',
     '/bin',
     '/usr/sbin',
-    '/sbin'
+    '/sbin',
+    '/Users/jeff/bin'
   ],
 
   environment => [

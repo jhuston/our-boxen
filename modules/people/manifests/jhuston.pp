@@ -9,6 +9,8 @@ class people::jhuston {
     #applications from ./jhuston/applications
 
     include people::jhuston::applications
+    include people::jhuston::config
+    include people::jhuston::dotfiles
 
     # OSX settings
       include osx::global::disable_key_press_and_hold
