@@ -54,11 +54,6 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-osx
-  specs:
-    osx (1.2.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
@@ -107,6 +102,11 @@ GITHUBTARBALL
   remote: haelmy/puppet-ohmyzsh
   specs:
     ohmyzsh (0.0.1)
+
+GITHUBTARBALL
+  remote: jhuston/puppet-osx
+  specs:
+    osx (1.2.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
