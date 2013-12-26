@@ -2,6 +2,7 @@ class people::jhuston::applications {
     
     include chrome
     include sublime_text_2
+    include notational_velocity::nvalt
 
     include zsh
     include tmux

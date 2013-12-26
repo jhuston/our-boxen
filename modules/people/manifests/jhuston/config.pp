@@ -13,7 +13,7 @@ class people::jhuston::config {
     }
 
     # OSX settings
-    include osx::global::disable_sound_effects
+    include osx::sound::ui
     include osx::global::disable_key_press_and_hold
     include osx::global::enable_keyboard_control_access
     include osx::global::expand_print_dialog

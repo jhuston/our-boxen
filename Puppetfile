@@ -58,13 +58,15 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "osx",        "1.2.0", :repo => "jhuston/puppet-osx"
+#github "osx",        "2.2.1", :repo => "jhuston/puppet-osx"
+jhuston "osx",       "2.2.1"
 github "zsh",        "1.0.0"
 github "tmux",       "1.0.2"
 github "wget",       "1.0.0"
 github "ohmyzsh",    "0.0.1", :repo => "haelmy/puppet-ohmyzsh"
 
 #apps
+github "notational_velocity", "1.1.1"
 github "chrome",     "1.1.2"
 github "firefox",    "1.0.6"
 github "sublime_text_2", "1.1.2"
