@@ -12,8 +12,8 @@ class people::jhuston::config {
         value => 'auto'
     }
 
+
     # OSX settings
-    include osx::sound::ui
     include osx::global::disable_key_press_and_hold
     include osx::global::enable_keyboard_control_access
     include osx::global::expand_print_dialog
@@ -25,4 +25,10 @@ class people::jhuston::config {
     include osx::universal_access::ctrl_mod_zoom
     include osx::disable_app_quarantine
     include osx::no_network_dsstores
+
+    class { 'osx::sound::ui':
+        ensure => 'absent'
+    }
+
+    include osx::sound::disable_volume_feedback
 }

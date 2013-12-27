@@ -111,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: jhuston/puppet-osx
   specs:
-    osx (2.2.1)
+    osx (2.2.4)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -138,7 +138,7 @@ DEPENDENCIES
   notational_velocity (= 1.1.1)
   ohmyzsh (= 0.0.1)
   openssl (= 1.0.0)
-  osx (= 2.2.1)
+  osx (= 2.2.4)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.7.2)
