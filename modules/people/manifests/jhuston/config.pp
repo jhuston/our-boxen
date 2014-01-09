@@ -1,15 +1,10 @@
 class people::jhuston::config {
 
-    git::config::global { 'user.email': 
-        value => 'huston.jeff@gmail.com'
-    }
-
-    git::config::global { 'user.name':
-        value => 'Jeff Huston'
-    }
-
-    git::config::global { 'color.ui':
-        value => 'auto'
+    git::config::global { 
+        'user.email': value => 'huston.jeff@gmail.com';
+        'user.name': value => 'Jeff Huston';
+        'color.ui': value => 'auto';
+        'alias.st': value => 'status';
     }
 
 
