@@ -6,7 +6,6 @@ class people::jhuston::applications {
     include lightpaper
 
     include zsh
-    include tmux
     include wget
     include ohmyzsh
 
@@ -14,4 +13,14 @@ class people::jhuston::applications {
     include iterm2::stable
     include iterm2::colors::solarized_dark
 
+    package { 'tmux':
+      install_options => '--fresh'
+    }
+
+    package { 'sox':
+        provider => 'homebrew'
+    }
+    package { 'ffmpeg':
+        provider => 'homebrew'
+    }
 }
